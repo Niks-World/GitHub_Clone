@@ -1,4 +1,6 @@
 import navbar from "./componets/navbar.js";
+import { getData } from "./script/getData.js";
+
 
 let navbarDiv =document.getElementById("navbar")
 navbarDiv.innerHTML = navbar()
@@ -7,12 +9,7 @@ navbarDiv.innerHTML = navbar()
 let searchInput =document.getElementById("nav_input")
 searchInput.addEventListener("keypress", searchData)
 
-async function gethData(url){
-    let res = await fetch(url)
-    let data = await res.json()
-    console.log(data)
-    return data
-}
+
 
 async function searchData(e){
     try{
