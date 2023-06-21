@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    border: 2px solid;
+    gap: 20px;
+    background-color: rgb(43, 39, 39);
+    color :(white);
+    padding: 5px 20px 5px 20px;
+}
+#logo{
+    width: 4%;
+}
+#logo img{
+    width: 100%;
+}
+#search{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search input{
+    width: 100%;
+
+}
+#options{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#options a{
+    text-decoration: none;
+    color: white;
+    
+}
+#profile{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#profile img{
+    width: 7%;
+}
